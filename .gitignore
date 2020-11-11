@@ -1,0 +1,64 @@
+# IDE stuffs
+.settings
+.idea
+.project
+nbproject/
+webgrind/
+_dic_cache
+
+# Configuration files
+.num_processes
+inc/*.dat
+inc/oauth_config.ini
+inc/Error_Mail_List.ini
+inc/config.ini
+inc/config.test.ini
+inc/config.development.ini
+inc/.globalmessage.ini
+inc/oauth-token-key.txt
+.passwd.ini
+
+# Ignore artifacts
+public/css/build/app.css
+public/css/build/app.css.map
+public/css/build/*-build.css
+public/js/build
+public/css/build
+
+# NodeJs stuff
+nodejs/*.log
+node_modules
+
+# Development env config files
+.agignore
+.vagrant
+
+# More stuffs
+Test_Local/*
+unitTest/xhGui/
+unitTest/coverage/*
+internal_scripts
+local_storage
+test_storage
+lib/Utils/fileupload/thumbnails/*
+
+task_manager_config.ini
+
+# advised local folder for test files
+test-storage
+
+# composer files
+composer.phar
+vendor
+
+.env
+
+phinx.yml
+plugins/*
+.lastjobprocessed_jpeer
+.maxJobToProcess_jpeer
+
+inc/dqf/dqf_test_secret.ini
+package-lock.json
+
+mmt_fallback_key.ini
